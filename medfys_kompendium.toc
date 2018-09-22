@@ -1,0 +1,10 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Atomic and Molecular physics}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Quantum Mechanics}{3}{subsection.1.1}
+\contentsline {subsubsection}{\numberline {1.1.1}Hydrogen}{3}{subsubsection.1.1.1}
+\contentsline {subsubsection}{\numberline {1.1.2}Orbitals}{4}{subsubsection.1.1.2}
+\contentsline {subsection}{\numberline {1.2}Atomic and molecular bonds}{5}{subsection.1.2}
+\contentsline {subsubsection}{\numberline {1.2.1}Chemical bonds}{5}{subsubsection.1.2.1}
+\contentsline {subsubsection}{\numberline {1.2.2}Hybridization}{6}{subsubsection.1.2.2}
+\contentsline {subsubsection}{\numberline {1.2.3}sp - sp\(^2\) - sp\(^3\) hybridization}{8}{subsubsection.1.2.3}
+\contentsline {section}{\numberline {2}Radioactivity}{11}{section.2}
