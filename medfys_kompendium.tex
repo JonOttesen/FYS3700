@@ -344,7 +344,7 @@ The energy transmitted through radiation is relatively small compared to energy 
 \begin{equation}
 1\text{eV}=1.6\cdot 10^{-19}\text{joule}.
 \end{equation}
-The advantageous of using eV can be seen in the rest energy of some particles in table \ref{tabel:3}. The rest energy seen in the table is given by
+The advantage of using eV can be seen in the rest energy of some particles in table \ref{tabel:3}. The rest energy seen in the table is given by
 \begin{equation}
 E_0=m_0c^2
 \end{equation}
@@ -374,7 +374,7 @@ E^2=\lp pc\rp^2 + \lp m_oc^2\rp^2\qquad p=\frac{m}{\sqrt{1-\lp\frac{v}{c}\rp^2}}
 
 From section \ref{sec:hydrogen} you should already know that the hydrogen atom has quantized energy states. The quantized trait is actually more general, and all atoms have quantized energy states. This is the reason for the shell categorization and the principle behind the Bohr atomic structure with the nucleus at the center surrounded by shells housing the electrons.
 
-The fact that the energy of the electrons are quantized leads to many interesting consequences. The most important for us is the fact that the energy emitted thorough electromagnetic radiation is equal to the gap in energy between two shells. The electromagnetic transition between the shells in hydrogen and tungsten is shown in figure \ref{fig:el_transition}, it's not important ti know anything specific for these two. But rather that the transitions are random from the n-th energy level down to the lowest possible energy state but the transition is always to a shell with lower energy.
+The fact that the energy of the electrons are quantized leads to many interesting consequences. The most important for us is the fact that the energy emitted thorough electromagnetic radiation is equal to the gap in energy between two shells. The electromagnetic transition between the shells in hydrogen and tungsten is shown in figure \ref{fig:el_transition}, it's not important to know anything specific for these two. But rather that the transitions are random from the n-th energy level down to the lowest possible energy state but the transition is always to a shell with lower energy. Whenever a electron transitions from a higher shell to a lower the energy difference is emitted through electromagnetic radiation.
 
 \begin{figure}[H]
 	\centering
@@ -391,7 +391,11 @@ Ionization can happen though radiation when the energy of the radiation (particl
 \begin{equation}
 0 \leq E_r + E_n
 \end{equation}
-where \(E_r\) is the energy of the radiation and \(E_n\) is the energy of the electron. A couple of these energy levels are shown in table \ref{tabel:4}.
+where \(E_r\) is the energy of the radiation and \(E_n\) is the energy of the electron. A couple of these energy levels are shown in table \ref{tabel:4}. When ionizing an atom the total energy is conserved. Therefore the total energy before the ionization equals the energy of the ionized electron plus the energy of the ionizing particle or photon after the ionization, mathematically:
+\begin{equation}
+E_{in} = E_{e-} + E_{p/f}.
+\end{equation}
+
 
 \begin{table}[H]
   \begin{center}
@@ -410,6 +414,38 @@ where \(E_r\) is the energy of the radiation and \(E_n\) is the energy of the el
     \label{tabel:4}
   \end{center}
 \end{table}
+
+The minimum energy required for ionization doesn't represent how easy an atom or molecule is ionized. Instead we use the mean excitation energy which measure the mean energy required for ionization of a certain material. Some mean excitation energies is given in table \ref{tabel:5}, notice how they are larger than the potentials given in table \ref{tabel:4}. The mean excitation potentials roughly scales with
+\begin{equation}
+\left<E_{mean}\right>\sim 10Z
+\end{equation}
+where Z is the atomic number.
+
+\begin{table}[H]
+  \begin{center}
+    \begin{tabular}{| l | l |}
+   	\hline
+	Element & Mean excitation energy [eV]\\ \hline
+	H & 19\\
+	C & 81\\
+	Pb & 823\\
+	H\(_2\)O & 75\\ \hline
+	\end{tabular}
+    \caption{A couple of mean ionization potentials.}
+    \label{tabel:5}
+  \end{center}
+\end{table}
+
+Not all radiation leads to ionization. Rather most radiation leads to a process called excitation. Excitation happens when the electromagnetic radiation equals the energy difference between a bound electron (an electron within a orbital in the atom or molecule) and a higher shell or orbital and hits the electron. When this happens the electron elevates to a higher shell or preferably called state. If you remember the principle of minimum energy you should also know that the electron prefers a state with the minimum energy. Therefore the electron goes through a process called de-excitation. When this happens the electron 'jumps' to a state with lower energy and the difference in energy is released in the form of electromagnetic radiation. The amount of states lowered towards it's minimum energy is random so multiple photons can be released during the de-excitation as stated in the beginning of the radiation section.
+
+Useful quantities:
+\begin{enumerate}
+\item \(N_A\): Avogadro constant
+\item \(A_r\): Atomic weight
+\item \(Z\): Atomic number
+\item \(\rho\): Density
+\item 1 amu: \(1/12\) of the mass of a \(^{12}\)C atom.
+\end{enumerate}
 
 
 
