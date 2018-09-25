@@ -436,6 +436,8 @@ where Z is the atomic number.
   \end{center}
 \end{table}
 
+\subsubsection{Excitation}
+
 Not all radiation leads to ionization. Rather most radiation leads to a process called excitation. Excitation happens when the electromagnetic radiation equals the energy difference between a bound electron (an electron within a orbital in the atom or molecule) and a higher shell or orbital and hits the electron. When this happens the electron elevates to a higher shell or preferably called state. If you remember the principle of minimum energy you should also know that the electron prefers a state with the minimum energy. Therefore the electron goes through a process called de-excitation. When this happens the electron 'jumps' to a state with lower energy and the difference in energy is released in the form of electromagnetic radiation. The amount of states lowered towards it's minimum energy is random so multiple photons can be released during the de-excitation as stated in the beginning of the radiation section.
 
 Useful quantities:
@@ -445,7 +447,78 @@ Useful quantities:
 \item \(Z\): Atomic number
 \item \(\rho\): Density
 \item 1 amu: \(1/12\) of the mass of a \(^{12}\)C atom.
+\item \(N_{am}=\frac{N_A}{A_r}\): Atoms per unit mass
+\item \(ZN_{am}=\frac{Z}{A_r}N_A\): Electrons per unit mass
+\item \(ZN_{aV}=\rho ZN_{am}\): Electrons per unit volume.
 \end{enumerate}
+
+\subsubsection{Absorbed, equivalent and effective dose}
+
+Absorbed dose is defined as the energy deposited per mass as
+\begin{equation}
+D=\frac{E}{m}
+\end{equation}
+with unit [Gy]=[J/kg]. It's more generally thought of as the amount of energy absorbed per kg of tissue. This is important when talking about the amount of radiation someone or something is receiving.
+
+Equivalent dose is the biological effectiveness of the different types of radiation when exposed to tissue. This is given by the absorebed dose times a correction factor for a radiation type as
+\begin{equation}
+H_T = D\cdot w_R
+\end{equation}
+where \(w_R\) is the correction factor also known as radiation weighting factor, \(D_e\) is meassured in [Sv]-sivert. Multiple values for \(w_R\) for different types of radiation is given in table \ref{tabel:6}.
+
+\begin{table}[H]
+  \begin{center}
+    \begin{tabular}{| l | l |}
+   	\hline
+	Radiation & \(w_R\) [unit-less]\\ \hline
+	EM-radiation, beta, muons & 1\\
+	Neutrons & 5-20\\
+	Protons & 2\\
+	Alpha, heavy nuclei & 20\\ \hline
+	\end{tabular}
+    \caption{Radiation weighting factor for different radiation types.}
+    \label{tabel:6}
+  \end{center}
+\end{table}
+
+Effective dose is a way of measuring the potential harm radiation has on different parts of the body. This is done through a organ weighting factor and the effective dose is given by
+\begin{equation}
+D_{ef}=D\cdot w_R\cdot w_T
+\end{equation}
+where \(w_T\) is the organ weighting factor, \(D_{ef}\) is also measured in [Sv]-sivert. It's important to know that the organ weighting factor is very uncertain.
+
+When the whole body is irradiated the total equivalent and effective doses are just written as a sum over the equivalent and effective dose for the different radiation types and different regions of the body. This can be done as follows
+\begin{equation}
+H_T=\sum_R w_RD_R
+\end{equation}
+\begin{equation}
+D_{ef}=\sum_Tw_TH_T=\sum w_T\sum_R w_RD_R.
+\end{equation}
+
+\subsection{Types of ionizing radiation}
+
+Ionizing radiation is often categorized into directly and indirectly ionizing radiation based on the nature of the radiation. Directly radiation is fast charged particles that deposit their energy in matter directly. This is done with many small Coulomb interactions along the particles track. Indirectly radiation is electromagnetic waves or neutron that transfer their energy to charged particles released in direct interactions. The resulting charged particles then deposit their energy in direct interactions. An illustration for this is shown in figure \ref{fig:direct_indirect}
+
+\begin{figure}[H]
+	\centering
+  	\includegraphics[width=0.50\textwidth]{direct_indirect.png}
+	\caption{An illustration of direct and indirect radiation.}
+	\label{fig:direct_indirect}
+\end{figure}
+
+Indirectly ionization is divided into three different processes called: photoelectric effect, Compton scattering and pair production.
+
+\subsubsection{Photoelectric effect}
+
+Photoelectric effect is the process which happens when a photon has energy larger than the absolute energy of an electron. When this happens and the photon hits the electron the electron is freed from the nucleus and becomes a free electron and the photon is totally absorbed. When this happens the kinetic energy of the electrons is given by
+\begin{equation}
+E_k =h\nu-|E_n|.
+\end{equation}
+This process occur most frequently with electrons with lower energy states. Further this process it more likely in heavier atoms and the probability increases with \(\sim Z^3\). Lastly this process is less likely for increasing photon energy \(\sim h\nu^{-3}\).
+
+\subsubsection{Compton scattering}
+
+\subsubsection{Pair production}
 
 
 

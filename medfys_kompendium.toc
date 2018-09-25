@@ -10,3 +10,9 @@
 \contentsline {section}{\numberline {2}Radioactivity}{11}{section.2}
 \contentsline {subsection}{\numberline {2.1}Radiation}{11}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}Ionization}{12}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}Excitation}{12}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2}Absorbed, equivalent and effective dose}{13}{subsubsection.2.2.2}
+\contentsline {subsection}{\numberline {2.3}Types of ionizing radiation}{13}{subsection.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}Photoelectric effect}{14}{subsubsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.2}Compton scattering}{14}{subsubsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.3}Pair production}{14}{subsubsection.2.3.3}
