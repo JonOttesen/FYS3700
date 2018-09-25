@@ -97,7 +97,7 @@ At macroscopic scale QM becomes absolute but when the scale becomes microscopic 
 \end{equation}
 one way or another, this is also known as the time independent Schrödinger equation. Sadly the only exactly solvable atom or molecule is the Hydrogen atom. For all other atoms or molecules consisting of more than a two-atomic system the electron repulsion makes the system \textbf{NOT} exactly solvable and approximations are necessary.
 
-\subsubsection{Hydrogen}
+\subsubsection{Hydrogen}\label{sec:hydrogen}
 
 As mentioned earlier the only exactly solvable atomic system is the Hydrogen atom. The solution to the hydrogen atom is given by the wave function\footnote{In QM a wave function is the complete mathematical description of a given system.}
 \begin{equation}\label{eq:01}
@@ -109,7 +109,7 @@ From Bohr's description of the hydrogen atom you may recognize the quantum numbe
 \begin{equation}
 E_n = \frac{E_1}{n^2}\quad n=1,2,3,...
 \end{equation}
-where \(E_1\) is the lowest quantized energy, an important note is that n is only integers which in Bohr's atom model corresponds to a specific shell. Each of these shells are given a name starting at K(\(n=1\)), L(\(n=2\)) etc.
+where \(E_1\) is the lowest quantized energy, an important note is that n is only integers which in Bohr's atom model corresponds to a specific shell. Each of these shells are given a name starting at K(\(n=1\)), L(\(n=2\)) etc. Each shell can also hold up to \(2n^2\) electrons, the reason for this will be revealed in the orbitals section.
 
 The second quantum number is l which describes the angular momentum of the system. Again as with the energy states this quantum number also has distinct eigenvalues
 \begin{equation}
@@ -331,6 +331,85 @@ The sp\(^3\) orbitals are arranged in a tetrahedral shape on the same plane with
 \subsection*{Introduction}
 
 Add introduction
+
+\subsection{Radiation}
+
+Radiation is the emission or transmission of energy in the form of waves or particles. The transmission of energy in waves are through electromagnetic radiation like: gamma, x-ray, ultraviolet, visible light etc. The energy of electromagnetic radiation is given by
+\begin{equation}
+E=h\nu \qquad \nu = \frac{c}{\lambda}.
+\end{equation}
+The transmission of energy through particles are typically from: alpha particles, electrons, positions, protons etc.
+
+The energy transmitted through radiation is relatively small compared to energy measured on macroscopic systems. Therefore it's advantageous to change units to electron volt instead of the regular joule where
+\begin{equation}
+1\text{eV}=1.6\cdot 10^{-19}\text{joule}.
+\end{equation}
+The advantageous of using eV can be seen in the rest energy of some particles in table \ref{tabel:3}. The rest energy seen in the table is given by
+\begin{equation}
+E_0=m_0c^2
+\end{equation}
+while the relativistic rest energy for a object in motion is
+\begin{equation}
+E_0=m_0c^2\qquad m=\dfrac{m}{1-\lp\frac{v}{c}\rp}.
+\end{equation}
+Lastly the total energy is given by
+\begin{equation}
+E^2=\lp pc\rp^2 + \lp m_oc^2\rp^2\qquad p=\frac{m}{\sqrt{1-\lp\frac{v}{c}\rp^2}}
+\end{equation}
+
+\begin{table}[H]
+  \begin{center}
+    \begin{tabular}{| l | l | l |}
+   	\hline
+	Particle & Rest mass [kg] & Rest energy [MeV]\\ \hline
+	Electron & \(9.11\cdot10^{-31}\) & \(0.511\)\\
+	Proton & \(1.67\cdot10^{-27}\) & \(938\)\\
+	Neutron & \(1.67\cdot10^{-27}\) & \(938\)\\
+	Alpha particle & \(6.64\cdot10^{-27}\) & \(3727\)\\ \hline
+	\end{tabular}
+    \caption{The different mass and rest energy of a couple of particles.}
+    \label{tabel:3}
+  \end{center}
+\end{table}
+
+From section \ref{sec:hydrogen} you should already know that the hydrogen atom has quantized energy states. The quantized trait is actually more general, and all atoms have quantized energy states. This is the reason for the shell categorization and the principle behind the Bohr atomic structure with the nucleus at the center surrounded by shells housing the electrons.
+
+The fact that the energy of the electrons are quantized leads to many interesting consequences. The most important for us is the fact that the energy emitted thorough electromagnetic radiation is equal to the gap in energy between two shells. The electromagnetic transition between the shells in hydrogen and tungsten is shown in figure \ref{fig:el_transition}, it's not important ti know anything specific for these two. But rather that the transitions are random from the n-th energy level down to the lowest possible energy state but the transition is always to a shell with lower energy.
+
+\begin{figure}[H]
+	\centering
+  	\includegraphics[width=0.50\textwidth]{electromagnetic_transistion.png}
+	\caption{The electromagnetic transitions between the shells in hydrogen and tungsten.}
+	\label{fig:el_transition}
+\end{figure}
+
+\subsection{Ionization}
+
+Ionization is the process by which an atom or a molecule acquires a negative or positive charge by gaining or losing electrons to form ions. In our case when referring to ionization we mostly refer to the process when the atom/molecule gains a positive charge and therefore losses an electron.
+
+Ionization can happen though radiation when the energy of the radiation (particles or EM) is greater or equal to the absolute energy of the electron with the maximum energy. Mathematically this relation is
+\begin{equation}
+0 \leq E_r + E_n
+\end{equation}
+where \(E_r\) is the energy of the radiation and \(E_n\) is the energy of the electron. A couple of these energy levels are shown in table \ref{tabel:4}.
+
+\begin{table}[H]
+  \begin{center}
+    \begin{tabular}{| l | l |}
+   	\hline
+	Element & Ionization potential [eV]\\ \hline
+	H & 13.6\\
+	He & 24.5\\
+	C & 11.3\\
+	O & 13.6\\
+	Mo & 7.1\\
+	W & 7.9\\
+	H\(_2\)O & 12.6\\ \hline
+	\end{tabular}
+    \caption{A couple of ionization potentials.}
+    \label{tabel:4}
+  \end{center}
+\end{table}
 
 
 
