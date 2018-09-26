@@ -549,6 +549,66 @@ A figure representing the three types of photon interactions is shown in figure 
 	\label{fig:photon_interactions}
 \end{figure}
 
+\subsubsection{Photon attenuation}
+
+Before starting to talk about photon attenuation I want to introduce the inverse square law. This law states that the total amount of photons in a vacuum that passes through a sphere no matter the distance r from the source is constant. An important consequence of this is that the photon density decreases with
+\begin{equation}
+I\propto \frac{1}{r^2}.
+\end{equation}
+
+In regular cases photons isn't in vacuum. The definition on how the intensity of the photon beam changes due to interactions is given by
+\begin{equation}
+\frac{dI}{dx}=\mu I,
+\end{equation}
+which is just states that the change in intensity is given by a constant times the intensity. By doing the necessary integration the change in intesity is given by
+\begin{equation}
+I=I_0\e^{\mu x}.
+\end{equation}
+In this equation \(\mu\) is the attenuation coefficient and reflects the total probability of a photon interactions per unit length. If the half intensity thickness is know the coefficient can be calculated by setting \(I=I_0/2\) and solving with respect for \(\mu\).
+
+It was stated earlier that the different types of photon interactions happens at different energy values. This can be seen on how the linear attenuation coefficient \(\mu\) changes depending on the energy. The effect diffrent energy levels has on the attenuation coefficient can clearly be seen in figure \ref{fig:lac}.
+
+\begin{figure}[H]
+	\centering
+  	\includegraphics[width=0.50\textwidth]{lac.png}
+	\caption{How the linear attenuation coefficient changes depending on the energy of a photon in iron.}
+	\label{fig:lac}
+\end{figure}
+
+\subsection{Radiation on matter}
+
+When photons are radiating tissue we can measure typical depth dose curves as shown in figure \ref{fig:depth_dose}. If you look clearly will see that the top on the curves are shifted to the right, this is because of the so called ''buildup zone''. The shift in maximum energy can be explained by the fact that free electrons cause a majority of ionization. Therefore in the beginning when the radiation from the photons are at it's maximum the most electrons will be ionized. When this happens the electron cause a major secondary ionization which is so great that the maximum dose is shifted.
+
+\begin{figure}[H]
+	\centering
+  	\includegraphics[width=0.50\textwidth]{dept_dose.png}
+	\caption{Depth dose curves for different energy levels of photon radiation in water.}
+	\label{fig:depth_dose}
+\end{figure}
+
+\subsubsection{Bethe's stopping power}
+
+As said earlier charged particles are continuously interacting with matter through Coulomb interactions and thereby slowing down. This slowing down is descirbed in Bethe's stopping formula which determines the change in energy per pathlength. This formula is expressed by the particle speed (v), charge (z), electron density (n) and the mean exciation energy for the medium (I) as
+\begin{equation}
+S=\frac{dE}{dx}=\frac{4\pi nz^2}{m_ev^2}\lp\frac{e^2}{4\pi\epsilon_0}\rp^2\ln(\frac{2m_ev^2}{I}).
+\end{equation}
+A plot of the stopping power versus the energy E is shown in figure \ref{fig:bethes_energy}. A way more interesting and important plot from Bethe's formula is shown in figure \ref{fig:bragg} which is a plot of a Bragg curve. I want you to specifically notice the top called a Bragg peak. On the Bragg peak the stopping power is at it's greatest meaning that on this length the most energy is deposited. This is because at this length the particle has lower speed compared to before and therefore has more time to interact with matter. Also think of the applications if the top represented a tumor.
+
+
+\begin{figure}[H]
+	\centering
+  	\includegraphics[width=0.50\textwidth]{bethe_energy.png}
+	\caption{Bethe's stopping power with exsperimental data plot.}
+	\label{fig:bethes_energy}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+  	\includegraphics[width=0.50\textwidth]{bragg.png}
+	\caption{Bragg curve.}
+	\label{fig:bragg}
+\end{figure}
+
 
 
 \end{multicols}

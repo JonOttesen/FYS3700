@@ -16,3 +16,6 @@
 \contentsline {subsubsection}{\numberline {2.3.1}Photoelectric effect}{14}{subsubsection.2.3.1}
 \contentsline {subsubsection}{\numberline {2.3.2}Compton scattering}{14}{subsubsection.2.3.2}
 \contentsline {subsubsection}{\numberline {2.3.3}Pair production}{15}{subsubsection.2.3.3}
+\contentsline {subsubsection}{\numberline {2.3.4}Photon attenuation}{15}{subsubsection.2.3.4}
+\contentsline {subsection}{\numberline {2.4}Radiation on matter}{16}{subsection.2.4}
+\contentsline {subsubsection}{\numberline {2.4.1}Bethe's stopping power}{16}{subsubsection.2.4.1}
