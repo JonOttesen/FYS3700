@@ -383,6 +383,10 @@ The fact that the energy of the electrons are quantized leads to many interestin
 	\label{fig:el_transition}
 \end{figure}
 
+\subsubsection{Radioactive decay}
+
+No point in filling in. Should be pretty straight forward.
+
 \subsection{Ionization}
 
 Ionization is the process by which an atom or a molecule acquires a negative or positive charge by gaining or losing electrons to form ions. In our case when referring to ionization we mostly refer to the process when the atom/molecule gains a positive charge and therefore losses an electron.
@@ -589,7 +593,7 @@ When photons are radiating tissue we can measure typical depth dose curves as sh
 \subsubsection{Bethe's stopping power}
 
 As said earlier charged particles are continuously interacting with matter through Coulomb interactions and thereby slowing down. This slowing down is descirbed in Bethe's stopping formula which determines the change in energy per pathlength. This formula is expressed by the particle speed (v), charge (z), electron density (n) and the mean exciation energy for the medium (I) as
-\begin{equation}
+\begin{equation}\label{eq:05}
 S=\frac{dE}{dx}=\frac{4\pi nz^2}{m_ev^2}\lp\frac{e^2}{4\pi\epsilon_0}\rp^2\ln(\frac{2m_ev^2}{I}).
 \end{equation}
 A plot of the stopping power versus the energy E is shown in figure \ref{fig:bethes_energy}. A way more interesting and important plot from Bethe's formula is shown in figure \ref{fig:bragg} which is a plot of a Bragg curve. I want you to specifically notice the top called a Bragg peak. On the Bragg peak the stopping power is at it's greatest meaning that on this length the most energy is deposited. This is because at this length the particle has lower speed compared to before and therefore has more time to interact with matter. Also think of the applications if the top represented a tumor.
@@ -609,6 +613,27 @@ A plot of the stopping power versus the energy E is shown in figure \ref{fig:bet
 	\label{fig:bragg}
 \end{figure}
 
+Stopping power S reflects the ionization density of the tissue for this particle. This means that the larger the stopping power the more ionizations are present. Because of this the stopping power is sometimes (inaccurately) referred to as \textit{linear energy transfer - LET}. Also the greater the stopping power the shorter the particle will travel in the tissue.
+
+I now want to continue talking about Brag curves. From figure \ref{fig:bragg} you could clearly see a distinct peak called brag peak. This peak can be made even shallower with different types of particles. Proton is a type of particle with a clearly defined top but heavier ions generally gives even more distinct tops. The problem is that heavier ions continue to ionizing little after the top is reached instead of falling to zero. This is because heavier ions have a tendency to break apart and since mass and charge is smaller they travel further.
+
+You should now know that brag particle radiation gives distinct peaks on bragg curves called bragg peaks. It's actually possible to extend this peak over a larger area without increasing the ionization before or after the peak. This is done by changing the start velocity of the protons used and thereby shift each individual peak and creating a continues top.
+
+
+\subsubsection{Scattering}
+
+Bethe's stopping power is important when studying the depth a particles travels within a tissue but it doesn't tell anything about the path the particle travels or about how the interacted particles react. Earlier I stated that particles are direct radiation and therefore are interacting through coulomb interactions. An important consequence of this is that the closer the particle is the the nucleus of a atom the greater is the Coulomb force which acts radially between the particles. For small particles like electrons this force will lead to deflected tracks. Meaning that a trajectory won't be straight, the lesser the mass of the larger is the deflection. An example of the difference in deflecting is shown in figure \ref{fig:scattering}. I also want to mention the side track in the \(\alpha\) trajectory is an ionized electron. This is because of an ionized electron also called \(\delta\)-electrons.
+
+\begin{figure}[H]
+	\centering
+  	\includegraphics[width=0.50\textwidth]{scattering.png}
+	\caption{The difference in deflection between electrons and \(\alpha\)-particles.}
+	\label{fig:scattering}
+\end{figure}
+
+\subsubsection{Bremsstrahlung}
+
+As stated in the previous subsection electrons are deflected greatly when they pass to close to the nucleus. When this happens a \(\gamma\)-quant is emitted. The energy emitted by the \(\gamma\)-quant is equal to the energy lost by the deflected particle when decelerating. This is not important for heavy particles since their deflections is close to negligible in comparison to that of an electron.
 
 
 \end{multicols}

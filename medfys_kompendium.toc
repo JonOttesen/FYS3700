@@ -9,6 +9,7 @@
 \contentsline {subsubsection}{\numberline {1.2.3}sp - sp\(^2\) - sp\(^3\) hybridization}{8}{subsubsection.1.2.3}
 \contentsline {section}{\numberline {2}Radioactivity}{11}{section.2}
 \contentsline {subsection}{\numberline {2.1}Radiation}{11}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Radioactive decay}{12}{subsubsection.2.1.1}
 \contentsline {subsection}{\numberline {2.2}Ionization}{12}{subsection.2.2}
 \contentsline {subsubsection}{\numberline {2.2.1}Excitation}{12}{subsubsection.2.2.1}
 \contentsline {subsubsection}{\numberline {2.2.2}Absorbed, equivalent and effective dose}{13}{subsubsection.2.2.2}
@@ -19,3 +20,5 @@
 \contentsline {subsubsection}{\numberline {2.3.4}Photon attenuation}{15}{subsubsection.2.3.4}
 \contentsline {subsection}{\numberline {2.4}Radiation on matter}{16}{subsection.2.4}
 \contentsline {subsubsection}{\numberline {2.4.1}Bethe's stopping power}{16}{subsubsection.2.4.1}
+\contentsline {subsubsection}{\numberline {2.4.2}Scattering}{17}{subsubsection.2.4.2}
+\contentsline {subsubsection}{\numberline {2.4.3}Bremsstrahlung}{18}{subsubsection.2.4.3}
