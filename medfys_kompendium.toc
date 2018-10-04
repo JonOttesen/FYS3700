@@ -1,24 +1,36 @@
 \select@language {english}
-\contentsline {section}{\numberline {1}Atomic and Molecular physics}{3}{section.1}
-\contentsline {subsection}{\numberline {1.1}Quantum Mechanics}{3}{subsection.1.1}
-\contentsline {subsubsection}{\numberline {1.1.1}Hydrogen}{3}{subsubsection.1.1.1}
-\contentsline {subsubsection}{\numberline {1.1.2}Orbitals}{4}{subsubsection.1.1.2}
-\contentsline {subsection}{\numberline {1.2}Atomic and molecular bonds}{5}{subsection.1.2}
-\contentsline {subsubsection}{\numberline {1.2.1}Chemical bonds}{5}{subsubsection.1.2.1}
-\contentsline {subsubsection}{\numberline {1.2.2}Hybridization}{6}{subsubsection.1.2.2}
-\contentsline {subsubsection}{\numberline {1.2.3}sp - sp\(^2\) - sp\(^3\) hybridization}{8}{subsubsection.1.2.3}
-\contentsline {section}{\numberline {2}Radioactivity}{11}{section.2}
-\contentsline {subsection}{\numberline {2.1}Radiation}{11}{subsection.2.1}
-\contentsline {subsubsection}{\numberline {2.1.1}Radioactive decay}{12}{subsubsection.2.1.1}
-\contentsline {subsection}{\numberline {2.2}Ionization}{12}{subsection.2.2}
-\contentsline {subsubsection}{\numberline {2.2.1}Excitation}{12}{subsubsection.2.2.1}
-\contentsline {subsubsection}{\numberline {2.2.2}Absorbed, equivalent and effective dose}{13}{subsubsection.2.2.2}
-\contentsline {subsection}{\numberline {2.3}Types of ionizing radiation}{13}{subsection.2.3}
-\contentsline {subsubsection}{\numberline {2.3.1}Photoelectric effect}{14}{subsubsection.2.3.1}
-\contentsline {subsubsection}{\numberline {2.3.2}Compton scattering}{14}{subsubsection.2.3.2}
-\contentsline {subsubsection}{\numberline {2.3.3}Pair production}{15}{subsubsection.2.3.3}
-\contentsline {subsubsection}{\numberline {2.3.4}Photon attenuation}{15}{subsubsection.2.3.4}
-\contentsline {subsection}{\numberline {2.4}Radiation on matter}{16}{subsection.2.4}
-\contentsline {subsubsection}{\numberline {2.4.1}Bethe's stopping power}{16}{subsubsection.2.4.1}
-\contentsline {subsubsection}{\numberline {2.4.2}Scattering}{17}{subsubsection.2.4.2}
-\contentsline {subsubsection}{\numberline {2.4.3}Bremsstrahlung}{18}{subsubsection.2.4.3}
+\contentsline {section}{\numberline {1}Atomic and Molecular physics}{4}{section.1}
+\contentsline {subsection}{\numberline {1.1}Quantum Mechanics}{4}{subsection.1.1}
+\contentsline {subsubsection}{\numberline {1.1.1}Hydrogen}{4}{subsubsection.1.1.1}
+\contentsline {subsubsection}{\numberline {1.1.2}Orbitals}{5}{subsubsection.1.1.2}
+\contentsline {subsection}{\numberline {1.2}Atomic and molecular bonds}{6}{subsection.1.2}
+\contentsline {subsubsection}{\numberline {1.2.1}Chemical bonds}{6}{subsubsection.1.2.1}
+\contentsline {subsubsection}{\numberline {1.2.2}Hybridization}{7}{subsubsection.1.2.2}
+\contentsline {subsubsection}{\numberline {1.2.3}sp - sp\(^2\) - sp\(^3\) hybridization}{9}{subsubsection.1.2.3}
+\contentsline {section}{\numberline {2}Radioactivity}{12}{section.2}
+\contentsline {subsection}{\numberline {2.1}Radiation}{12}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Radioactive decay}{13}{subsubsection.2.1.1}
+\contentsline {subsection}{\numberline {2.2}Ionization}{13}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}Excitation}{13}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2}Absorbed, equivalent and effective dose}{14}{subsubsection.2.2.2}
+\contentsline {subsection}{\numberline {2.3}Types of ionizing radiation}{14}{subsection.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}Photoelectric effect}{15}{subsubsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.2}Compton scattering}{15}{subsubsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.3}Pair production}{16}{subsubsection.2.3.3}
+\contentsline {subsubsection}{\numberline {2.3.4}Photon attenuation}{16}{subsubsection.2.3.4}
+\contentsline {subsection}{\numberline {2.4}Radiation on matter}{17}{subsection.2.4}
+\contentsline {subsubsection}{\numberline {2.4.1}Bethe's stopping power}{17}{subsubsection.2.4.1}
+\contentsline {subsubsection}{\numberline {2.4.2}Scattering}{18}{subsubsection.2.4.2}
+\contentsline {subsubsection}{\numberline {2.4.3}Bremsstrahlung}{19}{subsubsection.2.4.3}
+\contentsline {section}{\numberline {3}Cell biology}{20}{section.3}
+\contentsline {subsection}{\numberline {3.1}The principle of reductionism}{20}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}History of the cell}{20}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Tissue}{20}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}Epithelial tissue}{20}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.2}Connective tissue}{20}{subsubsection.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.3}Muscle cells}{21}{subsubsection.3.3.3}
+\contentsline {subsubsection}{\numberline {3.3.4}Nervous tissue}{21}{subsubsection.3.3.4}
+\contentsline {subsubsection}{\numberline {3.3.5}Blood cells}{21}{subsubsection.3.3.5}
+\contentsline {subsubsection}{\numberline {3.3.6}Cell differentiation}{21}{subsubsection.3.3.6}
+\contentsline {subsection}{\numberline {3.4}Eukaryotic cell}{22}{subsection.3.4}
+\contentsline {subsubsection}{\numberline {3.4.1}Cell membrane}{22}{subsubsection.3.4.1}

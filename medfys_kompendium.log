@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.9)  29 SEP 2018 20:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.9)  4 OCT 2018 21:57
 entering extended mode
 **./medfys_kompendium.tex
 (medfys_kompendium.tex
@@ -2135,9 +2135,6 @@ LaTeX Warning: Unused global option(s):
 
 LaTeX Warning: Label `fig:orbitals' multiply defined.
 
-
-LaTeX Warning: Label `fig:sp2_orbital' multiply defined.
-
 )
 \openout1 = `medfys_kompendium.aux'.
 
@@ -2258,18 +2255,18 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {C:/Users/Jon Andre/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (medfys
-_kompendium.toc)
+_kompendium.toc
+[2])
 \tf@toc=\write6
 \openout6 = `medfys_kompendium.toc'.
 
-
-[2]
+ [3]
 Underfull \hbox (badness 10000) in paragraph at lines 86--86
 []\OT1/cmr/bx/n/14.4 Atomic and Molec-u-lar
  []
 
-[3]
-<orbitals.png, id=161, 264.99pt x 157.18726pt>
+[4]
+<orbitals.png, id=225, 264.99pt x 157.18726pt>
 File: orbitals.png Graphic file (type png)
 <use orbitals.png>
 Package pdftex.def Info: orbitals.png  used on input line 155. on input line 15
@@ -2283,11 +2280,11 @@ Overfull \hbox (26.50154pt too wide) in paragraph at lines 155--156
 
 
 Package multicol Warning: I moved some lines to the next page.
-(multicol)                Footnotes on page 4 might be wrong on input line 165.
+(multicol)                Footnotes on page 5 might be wrong on input line 165.
 
 
-[4 <./orbitals.png>]
-<hunds_rule.png, id=177, 373.99725pt x 94.55325pt>
+[5 <./orbitals.png>]
+<hunds_rule.png, id=241, 373.99725pt x 94.55325pt>
 File: hunds_rule.png Graphic file (type png)
 <use hunds_rule.png>
 Package pdftex.def Info: hunds_rule.png  used on input line 168. on input line 
@@ -2306,11 +2303,11 @@ Overfull \hbox (24.65367pt too wide) in paragraph at lines 183--191
 
 
 Package multicol Warning: I moved some lines to the next page.
-(multicol)                Footnotes on page 5 might be wrong on input line 202.
+(multicol)                Footnotes on page 6 might be wrong on input line 202.
 
 
-[5 <./hunds_rule.png>]
-<hydrogen_bond.png, id=195, 1104.125pt x 673.51625pt>
+[6 <./hunds_rule.png>]
+<hydrogen_bond.png, id=259, 1104.125pt x 673.51625pt>
 File: hydrogen_bond.png Graphic file (type png)
 <use hydrogen_bond.png>
 Package pdftex.def Info: hydrogen_bond.png  used on input line 207. on input li
@@ -2324,18 +2321,18 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 207--208
 
 
 Package multicol Warning: I moved some lines to the next page.
-(multicol)                Footnotes on page 6 might be wrong on input line 219.
+(multicol)                Footnotes on page 7 might be wrong on input line 219.
 
 
-[6 <./hydrogen_bond.png>]
-<h2_pos.png, id=208, 222.23026pt x 66.84975pt>
+[7 <./hydrogen_bond.png>]
+<h2_pos.png, id=273, 222.23026pt x 66.84975pt>
 File: h2_pos.png Graphic file (type png)
 <use h2_pos.png>
 Package pdftex.def Info: h2_pos.png  used on input line 234. on input line 234.
 
 Package pdftex.def Info: Requested size: 210.70462pt x 63.38548pt on input line
  234.
-<h2_neg.png, id=211, 242.70676pt x 68.6565pt>
+<h2_neg.png, id=276, 242.70676pt x 68.6565pt>
 File: h2_neg.png Graphic file (type png)
 <use h2_neg.png>
 Package pdftex.def Info: h2_neg.png  used on input line 238. on input line 238.
@@ -2352,7 +2349,7 @@ Overfull \hbox (0.70232pt too wide) in paragraph at lines 233--241
  []$ 
  []
 
-<anti_bond_energy.png, id=222, 401.70074pt x 221.628pt>
+<anti_bond_energy.png, id=287, 401.70074pt x 221.628pt>
 File: anti_bond_energy.png Graphic file (type png)
 <use anti_bond_energy.png>
 Package pdftex.def Info: anti_bond_energy.png  used on input line 249. on input
@@ -2364,8 +2361,8 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 249--250
  [][] 
  []
 
-[7 <./h2_pos.png> <./h2_neg.png>]
-<sigma_bonds.png, id=240, 210.7875pt x 145.7445pt>
+[8 <./h2_pos.png> <./h2_neg.png>]
+<sigma_bonds.png, id=304, 210.7875pt x 145.7445pt>
 File: sigma_bonds.png Graphic file (type png)
 <use sigma_bonds.png>
 Package pdftex.def Info: sigma_bonds.png  used on input line 259. on input line
@@ -2377,7 +2374,7 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 259--260
  [][] 
  []
 
-<pi_bonds.png, id=241, 377.61075pt x 271.61475pt>
+<pi_bonds.png, id=305, 377.61075pt x 271.61475pt>
 File: pi_bonds.png Graphic file (type png)
 <use pi_bonds.png>
 Package pdftex.def Info: pi_bonds.png  used on input line 266. on input line 26
@@ -2405,7 +2402,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `superscript' on input line 271.
 
-<hybrid_orbital_energy.png, id=243, 602.25pt x 261.97874pt>
+<hybrid_orbital_energy.png, id=307, 602.25pt x 261.97874pt>
 File: hybrid_orbital_energy.png Graphic file (type png)
 <use hybrid_orbital_energy.png>
 Package pdftex.def Info: hybrid_orbital_energy.png  used on input line 277. on 
@@ -2417,8 +2414,8 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 277--278
  [][] 
  []
 
-[8 <./anti_bond_energy.png> <./sigma_bonds.png> <./pi_bonds.png>]
-<sp_orbital.png, id=257, 251.7405pt x 162.6075pt>
+[9 <./anti_bond_energy.png> <./sigma_bonds.png> <./pi_bonds.png>]
+<sp_orbital.png, id=321, 251.7405pt x 162.6075pt>
 File: sp_orbital.png Graphic file (type png)
 <use sp_orbital.png>
 Package pdftex.def Info: sp_orbital.png  used on input line 291. on input line 
@@ -2430,7 +2427,7 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 291--292
  [][] 
  []
 
-<sp2_orbital.png, id=259, 730.73pt x 548.0475pt>
+<sp2_orbital.png, id=323, 730.73pt x 548.0475pt>
 File: sp2_orbital.png Graphic file (type png)
 <use sp2_orbital.png>
 Package pdftex.def Info: sp2_orbital.png  used on input line 306. on input line
@@ -2442,12 +2439,8 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 306--307
  [][] 
  []
 
-[9 <./hybrid_orbital_energy.png> <./sp_orbital.png> <./sp2_orbital.png>]
-
-LaTeX Warning: Reference `fig:sp3_orbital' on page 10 undefined on input line 3
-18.
-
-<sp3_orbital.png, id=274, 1284.8pt x 722.7pt>
+[10 <./hybrid_orbital_energy.png> <./sp_orbital.png> <./sp2_orbital.png>]
+<sp3_orbital.png, id=338, 1284.8pt x 722.7pt>
 File: sp3_orbital.png Graphic file (type png)
 <use sp3_orbital.png>
 Package pdftex.def Info: sp3_orbital.png  used on input line 322. on input line
@@ -2459,12 +2452,12 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 322--323
  [][] 
  []
 
-[10 <./sp3_orbital.png>]
+[11 <./sp3_orbital.png>]
 Overfull \hbox (35.098pt too wide) in paragraph at lines 362--370
  [] 
  []
 
-<electromagnetic_transistion.png, id=286, 303.534pt x 159.59625pt>
+<electromagnetic_transistion.png, id=351, 303.534pt x 159.59625pt>
 File: electromagnetic_transistion.png Graphic file (type png)
 <use electromagnetic_transistion.png>
 Package pdftex.def Info: electromagnetic_transistion.png  used on input line 38
@@ -2476,8 +2469,8 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 381--382
  [][] 
  []
 
-[11] [12 <./electromagnetic_transistion.png>]
-<direct_indirect.png, id=314, 217.41225pt x 158.39175pt>
+[12] [13 <./electromagnetic_transistion.png>]
+<direct_indirect.png, id=380, 217.41225pt x 158.39175pt>
 File: direct_indirect.png Graphic file (type png)
 <use direct_indirect.png>
 Package pdftex.def Info: direct_indirect.png  used on input line 508. on input 
@@ -2489,8 +2482,8 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 508--509
  [][] 
  []
 
-[13]
-<compton.png, id=336, 205.36725pt x 149.358pt>
+[14]
+<compton.png, id=401, 205.36725pt x 149.358pt>
 File: compton.png Graphic file (type png)
 <use compton.png>
 Package pdftex.def Info: compton.png  used on input line 533. on input line 533
@@ -2502,8 +2495,8 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 533--534
  [][] 
  []
 
-[14 <./direct_indirect.png> <./compton.png>]
-<photon_interactions.png, id=349, 343.2825pt x 187.902pt>
+[15 <./direct_indirect.png> <./compton.png>]
+<photon_interactions.png, id=414, 343.2825pt x 187.902pt>
 File: photon_interactions.png Graphic file (type png)
 <use photon_interactions.png>
 Package pdftex.def Info: photon_interactions.png  used on input line 551. on in
@@ -2515,7 +2508,7 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 551--552
  [][] 
  []
 
-<lac.png, id=351, 419.76825pt x 328.22626pt>
+<lac.png, id=416, 419.76825pt x 328.22626pt>
 File: lac.png Graphic file (type png)
 <use lac.png>
 Package pdftex.def Info: lac.png  used on input line 577. on input line 577.
@@ -2528,11 +2521,11 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 577--578
 
 
 Package multicol Warning: I moved some lines to the next page.
-(multicol)                Footnotes on page 15 might be wrong on input line 585
+(multicol)                Footnotes on page 16 might be wrong on input line 585
 .
 
-[15 <./photon_interactions.png>]
-<dept_dose.png, id=367, 402.303pt x 231.86626pt>
+[16 <./photon_interactions.png>]
+<dept_dose.png, id=432, 402.303pt x 231.86626pt>
 File: dept_dose.png Graphic file (type png)
 <use dept_dose.png>
 Package pdftex.def Info: dept_dose.png  used on input line 588. on input line 5
@@ -2544,7 +2537,7 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 588--589
  [][] 
  []
 
-<bethe_energy.png, id=370, 387.24675pt x 161.403pt>
+<bethe_energy.png, id=435, 387.24675pt x 161.403pt>
 File: bethe_energy.png Graphic file (type png)
 <use bethe_energy.png>
 Package pdftex.def Info: bethe_energy.png  used on input line 604. on input lin
@@ -2556,7 +2549,7 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 604--605
  [][] 
  []
 
-<bragg.png, id=371, 371.58826pt x 240.29774pt>
+<bragg.png, id=436, 371.58826pt x 240.29774pt>
 File: bragg.png Graphic file (type png)
 <use bragg.png>
 Package pdftex.def Info: bragg.png  used on input line 611. on input line 611.
@@ -2567,8 +2560,8 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 611--612
  [][] 
  []
 
-[16 <./lac.png> <./dept_dose.png>]
-<scattering.png, id=384, 239.09325pt x 158.994pt>
+[17 <./lac.png> <./dept_dose.png>]
+<scattering.png, id=449, 239.09325pt x 158.994pt>
 File: scattering.png Graphic file (type png)
 <use scattering.png>
 Package pdftex.def Info: scattering.png  used on input line 629. on input line 
@@ -2580,30 +2573,89 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 629--630
  [][] 
  []
 
-[17 <./bethe_energy.png> <./bragg.png> <./scattering.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 666.
- [18]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 666.
+[18 <./bethe_energy.png> <./bragg.png> <./scattering.png>] [19] [20]
 
-(medfys_kompendium.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 666.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 666.
+Package multicol Warning: I moved some lines to the next page.
+(multicol)                Footnotes on page 21 might be wrong on input line 689
+.
+
+[21]
+<cell_differentiation.jpg, id=477, 2362.32562pt x 1763.08687pt>
+File: cell_differentiation.jpg Graphic file (type jpg)
+<use cell_differentiation.jpg>
+Package pdftex.def Info: cell_differentiation.jpg  used on input line 692. on i
+nput line 692.
+Package pdftex.def Info: Requested size: 215.0023pt x 160.44653pt on input line
+ 692.
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 692--693
+ [][] 
+ []
+
+<cell_eu.png, id=478, 390.258pt x 278.84175pt>
+File: cell_eu.png Graphic file (type png)
+<use cell_eu.png>
+Package pdftex.def Info: cell_eu.png  used on input line 703. on input line 703
+.
+Package pdftex.def Info: Requested size: 344.005pt x 245.79419pt on input line 
+703.
+
+Overfull \vbox (7.09637pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (7.09637pt too high) has occurred while \output is active []
+
+
+[22 <./cell_differentiation.jpg> <./cell_eu.png>]
+<cell_membrane.png, id=487, 547.44525pt x 213.1965pt>
+File: cell_membrane.png Graphic file (type png)
+<use cell_membrane.png>
+Package pdftex.def Info: cell_membrane.png  used on input line 716. on input li
+ne 716.
+Package pdftex.def Info: Requested size: 215.0023pt x 83.72859pt on input line 
+716.
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 716--717
+ [][] 
+ []
+
+<lipid_phos.png, id=492, 434.22224pt x 337.26pt>
+File: lipid_phos.png Graphic file (type png)
+<use lipid_phos.png>
+Package pdftex.def Info: lipid_phos.png  used on input line 729. on input line 
+729.
+Package pdftex.def Info: Requested size: 215.0023pt x 166.98795pt on input line
+ 729.
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 729--730
+ [][] 
+ []
+
+
+Package multicol Warning: I moved some lines to the next page.
+(multicol)                Footnotes on page 23 might be wrong on input line 737
+.
+
+[23 <./cell_membrane.png> <./lipid_phos.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 770.
+ [24]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 770.
+ (medfys_kompendium.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 770.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 770.
 Package rerunfilecheck Info: File `medfys_kompendium.out' has not changed.
-(rerunfilecheck)             Checksum: 29D3FE2A60BAEC400B64135BD266B592;1689.
-
-
-LaTeX Warning: There were undefined references.
+(rerunfilecheck)             Checksum: 017875F715359F77BEF11681D803B759;2542.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 666.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 770.
  ) 
 Here is how much of TeX's memory you used:
- 20961 strings out of 493312
- 355981 string characters out of 3138885
- 466676 words of memory out of 3000000
- 24131 multiletter control sequences out of 15000+200000
+ 21020 strings out of 493312
+ 357000 string characters out of 3138885
+ 467061 words of memory out of 3000000
+ 24163 multiletter control sequences out of 15000+200000
  543691 words of font info for 71 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,11n,40p,10395b,605s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2626,9 +2678,9 @@ ts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
 :/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program
  Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/M
 iKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on medfys_kompendium.pdf (18 pages, 1609423 bytes).
+Output written on medfys_kompendium.pdf (24 pages, 2754801 bytes).
 PDF statistics:
- 491 PDF objects out of 1000 (max. 8388607)
- 129 named destinations out of 1000 (max. 500000)
- 290 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 606 PDF objects out of 1000 (max. 8388607)
+ 156 named destinations out of 1000 (max. 500000)
+ 406 words of extra memory for PDF output out of 10000 (max. 10000000)
 
